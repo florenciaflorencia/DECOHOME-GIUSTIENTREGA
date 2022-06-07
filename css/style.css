@@ -91,12 +91,33 @@ footer{
     margin-right:100px;
     justify-content: space-around;
     align-items: center;
+
 }
 .tarjeta2{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
     margin-left: 100px;
     margin-right:100px;
     justify-content: space-around;
     align-items: center;
+  
 }
+
+@media (orientation: portrait){
+    .imagen1{
+        display:flex;
+        align-items: center;
+        align-content: center;
+    }
+    }
+    
+
+@media (orientation: portrait){
+    footer{
+        display: flex; 
+        flex-direction: column;
+        height: 1000px;
+        background-color: #dcd0c0;
+    }
+    }
+

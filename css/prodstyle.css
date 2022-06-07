@@ -154,3 +154,31 @@ footer{
   justify-content: space-around;
   align-items: center;
 }
+@media (orientation: portrait){
+    section{
+        display: flex; 
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        margin-left: 5px;
+    }
+    }
+    @media (orientation: portrait){
+        section{
+            display: flex; 
+            flex-direction: column;
+            justify-items: center;
+            justify-content: center;
+            margin-left: 5px;
+        }
+        }
+        
+    
+@media (orientation: portrait){
+    footer{
+        display: flex; 
+        flex-direction: column;
+        height: 1000px;
+        background-color: #dcd0c0;
+    }
+    }

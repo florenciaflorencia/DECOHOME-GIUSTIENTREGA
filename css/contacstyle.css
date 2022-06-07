@@ -88,3 +88,11 @@ footer{
   justify-content: space-around;
   align-items: center;
 }
+@media (orientation: portrait){
+    footer{
+        display: flex; 
+        flex-direction: column;
+        height: 1000px;
+        background-color: #dcd0c0;
+    }
+    }
